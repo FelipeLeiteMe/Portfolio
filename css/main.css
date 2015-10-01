@@ -1,0 +1,290 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+body {
+	background: url(/felipe-leite/img/img_bg.png) center repeat #444349;
+	font-family: 'adelle_sanslight', sans-serif;
+	color: white;
+}
+
+
+header {
+	
+	padding-top: 50px;
+}
+
+.fundo-header {
+	background: #00a0ea;
+	color: white;
+	
+}
+
+.fundo-header-projetos {
+	background: url(/felipe-leite/img/its-fundo-interna.jpg) center #444349;
+	
+}
+
+.fundo-proj {
+	background: #00a0ea;
+}
+
+h1 {
+	font: 40px/50px 'bree_serifregular', sans-serif;
+}
+
+h2 {
+	font: 22px/32px 'adelle_sanslight', sans-serif;
+	margin-top: 10px;
+}
+
+h3 {
+	font: 40px/50px 'adelle_sanslight', sans-serif;
+	margin-bottom: 0;
+}
+
+h4 {
+	font: 24px/28px 'bree_serifregular', sans-serif;
+	margin-top: 25px;
+}
+
+h5 {
+	font: 45px/45px 'bree_serifregular', sans-serif;
+}
+
+h6 {
+	font: 60px/65px 'bree_serifregular', sans-serif;
+}
+
+p {
+	font-size: 14px;
+	line-height: 26px;
+	margin-top: 15px;
+}
+
+.call {
+	text-transform: uppercase;
+	margin-top: 10px;
+	font-family:'adelle_sansregular', sans-serif;
+}
+
+header h1 {
+	margin-top: 100px;
+}
+
+.topo-120 {
+	margin-top: 120px;
+}
+
+.topo-80 {
+	margin-top: 80px;
+}
+
+.topo-60 {
+	margin-top: 60px;
+}
+
+.topo-30 {
+	margin-top: 30px;
+}
+
+.topo-20 {
+	margin-top: 20px;
+}
+
+.bottom-120 {
+	margin-bottom: 120px;
+}
+
+.esquerda-100 {
+	margin-left: 100px;
+}
+
+.esquerda-70 {
+	margin-left: 70px;
+}
+
+
+.esquerda-10 {
+	margin-left: 10px;
+}
+
+.align-center {
+	text-align: center;
+}
+
+.align-right {
+	text-align: right;
+}
+
+
+.menu-links {
+	padding-left: 0px;
+	margin-bottom: 0px;
+}
+
+.menu-links li {
+	display: inline-block;
+}
+
+.menu-links li a {
+	font-family: 'adelle_sanslight', sans-serif;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 13px;
+	border-radius: 3px;
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	white-space: 10px
+	letter-spacing: 1px;
+	letter-spacing: 1px;
+}
+
+
+.magem-texto {
+	margin-left: 80px;
+}
+
+.box-padding-big-top{
+    padding-top: 80px;
+	height: 429px;
+}
+
+
+.maior {
+	max-width: 1443px;
+	width: 100%;
+	height: auto;
+}
+ 
+ .maior  img{
+     max-width: 721px;   
+     width: 100%;
+     max-height: 468px; 
+     min-height: auto;     
+   }
+ 
+ 
+
+
+.section {
+	margin-top: 100px;
+	margin-bottom: 20px;
+}
+
+
+footer {
+	margin-top: 120px;
+	margin-bottom: 60px;
+}
+
+
+
+.masonry-list li {
+  float: left;
+  overflow: hidden;
+  height: 380px;
+  width: 600px;
+  margin-bottom: -20px;
+  margin-left: -30px;
+}
+
+.masonry-list li:focus .tile-primary-content img, .masonry-list li:hover .tile-primary-content img {
+  -moz-transform: scale3d(1.2, 1.2, 0);
+  -webkit-transform: scale3d(1.2, 1.2, 0);
+  transform: scale3d(1.2, 1.2, 0);
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -webkit-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+  -moz-transition: -moz-transform 15000ms cubic-bezier(0, 0, 0.8, 0.9);
+  -o-transition: -o-transform 15000ms cubic-bezier(0, 0, 0.8, 0.9);
+  -webkit-transition: -webkit-transform 15000ms cubic-bezier(0, 0, 0.8, 0.9);
+  transition: transform 15000ms cubic-bezier(0, 0, 0.8, 0.9);
+}
+.masonry-list li:focus p,
+.masonry-list li:focus h2,
+.masonry-list li:focus .tile-secondary-content, .masonry-list li:hover p,
+.masonry-list li:hover h2,
+.masonry-list li:hover .tile-secondary-content {
+  opacity: 1;
+}
+
+.masonry-list li.tile-case .tile-primary-content, .masonry-list li.tile-client .tile-primary-content, .masonry-list li.tile-person .tile-primary-content {
+  padding: 0;
+}
+.masonry-list li.tile-case .tile-secondary-content, .masonry-list li.tile-client .tile-secondary-content, .masonry-list li.tile-person .tile-secondary-content {
+  background-color: rgba(0, 0, 0, 0.7);
+  -moz-transition: opacity 100ms ease-out;
+  -o-transition: opacity 100ms ease-out;
+  -webkit-transition: opacity 100ms ease-out;
+  transition: opacity 100ms ease-out;
+}
+
+.masonry-list li.tile-person {
+  text-align: center;
+}
+.masonry-list li.tile-person .tile-secondary-content {
+  display: table;
+  height: 100%;
+  padding: 0;
+  width: 100%;
+}
+.masonry-list li.tile-person .tile-secondary-container {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.masonry-list a,
+.masonry-list button {
+  color: white;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+.masonry-list .tile-primary-content,
+.masonry-list .tile-secondary-content {
+  bottom: 0;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.masonry-list .tile-primary-content img {
+  width: 100%;
+  -moz-transform: scale3d(1, 1, 1);
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+  -moz-transition: -moz-transform 200ms ease-out;
+  -o-transition: -o-transform 200ms ease-out;
+  -webkit-transition: -webkit-transform 200ms ease-out;
+  transition: transform 200ms ease-out;
+}
+.masonry-list .tile-secondary-content {
+  opacity: 0;
+  -moz-transition: opacity 250ms ease-out;
+  -o-transition: opacity 250ms ease-out;
+  -webkit-transition: opacity 250ms ease-out;
+  transition: opacity 250ms ease-out;
+}
+.masonry-list .tile-secondary-content p,
+.masonry-list .tile-secondary-content h2 {
+  opacity: 0;
+  -moz-transition: opacity 200ms 100ms ease-in;
+  -o-transition: opacity 200ms 100ms ease-in;
+  -webkit-transition: opacity 200ms 100ms;
+  -webkit-transition-delay: ease-in;
+  transition: opacity 200ms 100ms ease-in;
+}
+
+
